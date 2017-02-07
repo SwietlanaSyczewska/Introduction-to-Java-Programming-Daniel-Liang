@@ -1,0 +1,9 @@
+Graphene is an allotrope of carbon in the form of a two-dimensional, atomic-scale, hexagonal lattice in which one atom forms each vertex. It is the basic structural element of other allotropes, including graphite, charcoal, carbon nanotubes and fullerenes. It can also be considered as an indefinitely large aromatic molecule, the ultimate case of the family of flat polycyclic aromatic hydrocarbons.
+
+File:Graphene and Dirac Cones.ogv
+Graphene and its band structure and Dirac Cones, effect of a grid on doping
+Graphene has many unusual properties. It is about 200 times stronger than the strongest steel. It conducts heat and electricity very efficiently and is nearly transparent.[3] Graphene also shows a large and nonlinear diamagnetism,[4] even greater than graphite, and can be levitated by Nd-Fe-B magnets.
+
+Scientists have theorized about graphene for years. It has likely been unknowingly produced in small quantities for centuries, through the use of pencils and other similar applications of graphite. It was originally observed in electron microscopes in 1962, but only studied while supported on metal surfaces.[5] The material was later rediscovered, isolated and characterized in 2004 by Andre Geim and Konstantin Novoselov at the University of Manchester.[6][7] Research was informed by existing theoretical descriptions of its composition, structure and properties.[8] High-quality graphene proved to be surprisingly easy to isolate, making more research possible. This work resulted in the two winning the Nobel Prize in Physics in 2010 "for groundbreaking experiments regarding the two-dimensional material graphene."[9]
+
+The global market for graphene is reported to have reached $9 million by 2012 with most sales in the semiconductor, electronics, battery energy and composites industries.

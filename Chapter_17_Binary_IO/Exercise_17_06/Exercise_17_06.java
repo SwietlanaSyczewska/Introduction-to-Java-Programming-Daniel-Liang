@@ -14,7 +14,7 @@ public class Exercise_17_06 {
 		Loan loan4 = new Loan(5.0, 5, 10000);
 		Loan loan5 = new Loan(5.75, 5, 10000);
 		try (ObjectOutputStream output = new ObjectOutputStream(new BufferedOutputStream(
-				new FileOutputStream("C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_06.dat")))) {
+				new FileOutputStream("src/Exercise_17_06.dat")))) {
 			output.writeObject(loan1);
 			output.writeObject(loan2);
 			output.writeObject(loan3);

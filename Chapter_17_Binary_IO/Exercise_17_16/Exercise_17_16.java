@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Exercise_17_16 {
-
+	// C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\Exercise_20_01_text_sample.txt
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		System.out.println("Enter filename: ");
 		File file = new File(new Scanner(System.in).nextLine());
@@ -21,7 +21,7 @@ public class Exercise_17_16 {
 		System.out.printf("%10s %10s %10s\n", "Character", "Count", "Ascii code");
 		for (int i = 0; i < ascii.length; i++) {
 			if (ascii[i] != 0) {
-System.out.printf("%10c %10s %10s\n", i, ascii[i], i);
+				System.out.printf("%10c %10s %10s\n", i, ascii[i], i);
 			}
 		}
 	}

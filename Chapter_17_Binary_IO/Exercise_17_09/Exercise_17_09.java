@@ -17,7 +17,7 @@ public class Exercise_17_09 extends Application {
 	final int ZIP = 5;
 	final int position = 109;
 	protected int count = 0;
-	protected String path = "C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_09.dat";
+	protected String path = "src/Exercise_17_09.dat";
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {

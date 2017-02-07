@@ -6,6 +6,8 @@ import java.io.RandomAccessFile;
 import java.util.Scanner;
 
 public class Exercise_17_14 {
+	// C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\Exercise_17_06.dat
+	// C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\Exercise_17_14.dat
 	public static void main(String[] args) throws IOException {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter input file name: ");

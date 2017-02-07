@@ -8,7 +8,7 @@ public class Exercise_17_08 {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		int count;
 		try (RandomAccessFile inout = new RandomAccessFile(
-				"C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_08.dat", "rw")) {
+				"src/Exercise_17_08.dat", "rw")) {
 
 			if (inout.length() == 0) {
 				count = 0;

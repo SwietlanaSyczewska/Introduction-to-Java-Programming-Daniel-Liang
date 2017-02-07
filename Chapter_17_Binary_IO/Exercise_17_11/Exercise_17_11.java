@@ -13,8 +13,7 @@ public class Exercise_17_11 extends Application {
 	protected SplitFilePane pane = new SplitFilePane();
 	String path = null;
 	int numberOfPieces = 1;
-	
-
+	//C:\Users\swiet\workspace\Introduction to Java Programming Daniel Liang\src\Exercise_17_06.dat;
 	public void start(Stage primaryStage) throws Exception {
 		pane.tfFileName.setOnAction(e -> getPath());
 		pane.tfNumberOfPieces.setOnAction(e -> getNumber());
@@ -53,6 +52,7 @@ public class Exercise_17_11 extends Application {
 
 	private void getNumber() {
 		numberOfPieces = Integer.parseInt(pane.tfNumberOfPieces.getText());
+		System.out.println(numberOfPieces);
 
 	}
 

@@ -8,7 +8,7 @@ public class Exercise_17_10 {
 
 	public static void main(String[] args) throws IOException {
 		String numberInput = "5";
-		String path = "C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_06.dat";
+		String path = "src/Exercise_17_06.dat";
 		int numberOfPieces = Integer.parseInt(numberInput);
 		RandomAccessFile[] splits = new RandomAccessFile[numberOfPieces];
 		try (RandomAccessFile inout = new RandomAccessFile(path, "r")) {

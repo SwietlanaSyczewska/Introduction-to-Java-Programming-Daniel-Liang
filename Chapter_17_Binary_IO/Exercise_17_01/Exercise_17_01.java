@@ -10,9 +10,8 @@ import java.util.Scanner;
 
 public class Exercise_17_01 {
 	public static void main(String[] args) throws FileNotFoundException {
-		String path = "C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_01.txt";
 
-		File file = new File("C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_01.txt");
+		File file = new File("src/Exercise_17_01.txt");
 
 		try (PrintWriter printwriter = new PrintWriter(file)) {
 			for (int i = 0; i < 100; i++) {

@@ -14,8 +14,8 @@ import java.util.Scanner;
 public class Exercise_17_04 {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		String welcomeJava = "C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Welcome.java";
-		String welcomeUTF = "C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Welcome.UTF";
+		String welcomeJava = "src/Welcome.java";
+		String welcomeUTF = "src/Welcome.UTF";
 
 		File file = new File(welcomeJava);
 		try (BufferedReader in = new BufferedReader(new FileReader(file));

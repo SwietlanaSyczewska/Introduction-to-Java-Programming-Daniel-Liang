@@ -7,13 +7,13 @@ import java.io.RandomAccessFile;
 public class Exercise_17_12 {
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 
-		String[] paths = getPaths("C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_08.dat.1",
-				"C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_08.dat.2",
-				"C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_08.dat.3",
-				"C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_08.dat.4",
-				"C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_08.dat.5");
+		String[] paths = getPaths("C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\Exercise_17_06.dat.1",
+				"C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\Exercise_17_06.dat.2",
+				"C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\Exercise_17_06.dat.3",
+				"C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\Exercise_17_06.dat.4",
+				"C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\Exercise_17_06.dat.5");
 
-		String path = "C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\combinedFile.dat";
+		String path = "C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\combinedFile.dat";
 		RandomAccessFile[] source = new RandomAccessFile[paths.length];
 		try (RandomAccessFile target = new RandomAccessFile(path, "rw");) {
 			for (int i = 0; i < paths.length; i++) {

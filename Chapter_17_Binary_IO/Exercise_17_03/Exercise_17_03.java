@@ -14,19 +14,20 @@ import java.util.Scanner;
 public class Exercise_17_03 {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		String path = "C:\\Users\\swiet\\Desktop\\Intro to Java Programming\\Exercise_17_03.dat";
+		String path = ("src/Exercise_17_03.dat");
 		File file = new File(path);
-		
+
 		int limit = 5;
 
-		try (Scanner inputConsole = new Scanner(System.in);DataOutputStream output = new DataOutputStream(new FileOutputStream(path))) {
+		try (Scanner inputConsole = new Scanner(System.in);
+				DataOutputStream output = new DataOutputStream(new FileOutputStream(path))) {
 			while (limit != 0) {
 				System.out.println("Provide integer:");
 				output.writeInt(inputConsole.nextInt());
 				limit--;
 			}
 		}
-		
+
 		try (DataInputStream input = new DataInputStream(new FileInputStream(path))) {
 			while (true) {
 				System.out.print(input.readInt() + " ");

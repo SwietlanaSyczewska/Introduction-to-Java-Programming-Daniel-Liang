@@ -7,7 +7,8 @@ import java.io.RandomAccessFile;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
+//source C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\Exercise_17_06.dat.1
+//target C:\\Users\\swiet\\workspace\\Introduction to Java Programming Daniel Liang\\src\\target
 public class Exercise_17_13 extends Application {
 	CombineFilePane pane = new CombineFilePane();
 	String[] sourceFilePaths;
